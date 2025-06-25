@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  background: url('bg.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 40px;
+}
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.8em;
+}
+#container img {
+  width: 200px;
+  margin-top: 20px;
+}
+button {
+  background-color: #ff66a3;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #e60073;
+}
+.fade-in {
+  animation: fadeIn 1.5s ease-in;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.balloon {
+  width: 80px;
+  animation: flyUp 5s linear forwards;
+  position: relative;
+}
+@keyframes flyUp {
+  from { top: 100px; opacity: 0; }
+  to { top: -400px; opacity: 1; }
+}
+pre {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #800040;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 20px auto;
+  white-space: pre-wrap;
+  text-align: left;
+}
+textarea {
+  width: 80%;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+}
+#textFileButtons button {
+  display: block;
+  margin: 10px auto;
+}
+
+#countdown {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 1em;
+  color: #fff;
+  font-weight: bold;
+  z-index: 1000;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+audio{
+  color: #800040;
+  opacity: 40%;
+  height: 30px;
+  
+}
+
